@@ -26,10 +26,14 @@
     list-style: none;
 }
 
-#intro .container {
+#intro .container, #about .container {
     display: flex;
     flex-direction: row;
 
     justify-content: space-between;
     align-items: center;
+}
+
+.about-header {
+    display: flex;
 }
