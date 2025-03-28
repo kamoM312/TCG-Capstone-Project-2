@@ -281,4 +281,13 @@ button {
 
 #pre-footer {
     background-color: var(--bright-red);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.pre-text {
+    font-size: 40px;
+    color: var(--very-light-gray);
+    flex-basis: 50%;
+    padding: 0;
 }
