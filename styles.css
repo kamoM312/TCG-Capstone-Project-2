@@ -9,10 +9,11 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
-    background: url("./assets/images/bg-simplify-section-desktop.svg");
+    /* background-image: url("./assets/images/bg-simplify-section-desktop.svg"); */
     font-family: "Be Vietnam Pro";
     font-size: 16px;
 }
@@ -119,6 +120,14 @@ section {
     height: 100%;
 }
 
+#about h2 {
+    font-size: 2rem
+}
+
+#about .container {
+    align-items: flex-start;
+}
+
 .reason {
     display: flex;
     flex-direction: row;
@@ -205,4 +214,13 @@ button {
     background: var(--bright-red);
     box-shadow: 0 15px 20px -10px hsla(12, 88%, 59%, 0.5);
     color: var(--very-light-gray);
+}
+
+#about .left-col > *, #about .right-col > * {
+    width: 70%;
+    padding-bottom: 30px;
+}
+
+#about .reason-explanation > * {
+    padding-left: 20%;
 }
