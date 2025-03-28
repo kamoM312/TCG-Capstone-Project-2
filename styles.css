@@ -157,10 +157,15 @@ section {
     gap: 12px;
     background-color: var(--very-light-gray);
     padding: 20px;
+    margin-bottom: 50px;
 }
 
 #testimony-section .container {
     padding-top: 0;
+}
+
+.testimony p {
+    text-align: center;
 }
 
 .heading {
