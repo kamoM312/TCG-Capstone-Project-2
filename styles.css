@@ -158,7 +158,12 @@ section {
     background-color: var(--very-light-gray);
     padding: 20px;
     margin-bottom: 50px;
+
+    flex-basis: 25%;
+    line-height: 1.5;
 }
+
+
 
 #testimony-section .container {
     padding-top: 0;
@@ -272,4 +277,8 @@ button {
 
 .test-img img {
     height: 100%;
+}
+
+#pre-footer {
+    background-color: var(--bright-red);
 }
