@@ -99,12 +99,14 @@ section {
 
 .left-col h1 {
     font-size: 60px;
-    margin: 0;
+    margin-right: 10%;
 }
 
 .left-col p {
     margin-top: 35px;
     margin-bottom: 35px;
+    color: var(--dark-grayish-blue);
+    margin-right: 35%;
 }
 
 .right-col {
