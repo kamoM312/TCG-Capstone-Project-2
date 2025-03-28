@@ -132,6 +132,8 @@ section {
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    gap: 10px;
 }
 
 /* .reason-explanation {
@@ -221,6 +223,19 @@ button {
     padding-bottom: 30px;
 }
 
+#about .left-col > p {
+    color: var(--dark-grayish-blue);
+}
+
 #about .reason-explanation > * {
-    padding-left: 20%;
+    margin-left: 78px;
+    color: var(--dark-grayish-blue);
+}
+
+.num {
+    padding: .4rem 1.3rem;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-weight: 500;
 }
