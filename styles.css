@@ -37,6 +37,10 @@ body {
     /* position: absolute; */
 }
 
+.navbar .nav {
+    margin-bottom: 10px;
+}
+
 .nav-items {
     display: flex;
     flex-direction: row;
@@ -100,15 +104,21 @@ section {
 }
 
 .left-col h1 {
-    font-size: 60px;
+    font-size: 53px;
     margin-right: 10%;
+    margin-bottom: 30px;
+    color: var(--dark-blue);
+    line-height: 1.2;
 }
 
 .left-col p {
-    margin-top: 35px;
+    /* margin-top: 35px; */
     margin-bottom: 35px;
     color: var(--dark-grayish-blue);
     margin-right: 35%;
+
+    font-size: 16px;
+    line-height: 1.4;
 }
 
 .right-col {
@@ -126,10 +136,12 @@ section {
 
 section#about {
     padding-bottom: 0;
+    padding-top: 60px;
 }
 
 #about h2 {
-    font-size: 2rem
+    font-size: 2rem;
+    color: var(--dark-blue);
 }
 
 #about .container {
