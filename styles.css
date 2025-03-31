@@ -290,7 +290,7 @@ button {
 
 #about .left-col > *, #about .right-col > * {
     width: 70%;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 #about .left-col > p {
@@ -400,5 +400,44 @@ button {
 }
 
 .copyright {
-    font-size: 13px;
+    font-size: 14px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 930px;
+    }
+
+    #about .left-col > * {
+        width: 80%;
+    }
+
+    #about .right-col > * {
+        width: 95%;
+    }
+
+    .left-col h1 {
+        margin-right: 0;
+    }
+
+    .search {
+        width: 140px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
+
+@media (max-width: 990px) {
+    .container {
+        width: 730px;
+    }
+}
+
+/* mobile view */
+@media (max-width: 770px) {
+    .container {
+        width: 730px;
+    }
 }
