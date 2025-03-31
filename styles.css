@@ -124,6 +124,10 @@ section {
     height: 100%;
 }
 
+section#about {
+    padding-bottom: 0;
+}
+
 #about h2 {
     font-size: 2rem
 }
@@ -137,7 +141,7 @@ section {
     flex-direction: row;
     align-items: center;
 
-    gap: 10px;
+    gap: 17px;
 }
 
 /* .reason-explanation {
@@ -177,14 +181,21 @@ section {
     color: var(--dark-grayish-blue);
 }
 
+.testimony h4 {
+    color: var(--dark-blue);
+    font-size: 15px;
+}
+
 section#testimony-section {
     padding-bottom: 60px;
+    padding-top: 60px;
 }
 
 .heading {
     padding-top: 10px;
     font-size: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+    color: var(--dark-blue);
 }
 
 .heading, .test-button {
@@ -272,15 +283,24 @@ button {
 
 #about .left-col > p {
     color: var(--dark-grayish-blue);
+    line-height: 1.4;
+    font-size: 16px;
 }
 
 #about .reason-explanation > * {
     margin-left: 78px;
     color: var(--dark-grayish-blue);
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+#about .reason h3 {
+    font-size: 15px;
+    color: var(--dark-blue);
 }
 
 .num {
-    padding: .4rem 1.3rem;
+    padding: .6rem 1.3rem .4rem;
     border: none;
     border-radius: 50px;
     outline: none;
