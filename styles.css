@@ -198,6 +198,15 @@ section {
     background-color: black;
 }
 
+#footer .container {
+    padding-top: 0;
+}
+
+section#footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .vertical .nav-items {
     display: flex;
     flex-direction: column;
@@ -215,6 +224,8 @@ section {
 
     align-items: center;
     justify-items: center;
+
+    row-gap: 70px;
 }
 
 a, a:hover {
@@ -290,4 +301,33 @@ button {
     color: var(--very-light-gray);
     flex-basis: 50%;
     padding: 0;
+}
+
+#pre-footer button {
+    color: var(--bright-red);
+    background-color: var(--very-light-gray);
+}
+
+#footer .nav-items li:last-child {
+    margin-bottom: 0;
+}
+
+#footer .nav-items li:first-child {
+    margin-top: 10px;
+}
+
+#footer .nav-items li {
+    margin-bottom: 17px;
+}
+
+#footer .logo img {
+    height: 25.88px;
+    margin-left: -25px;
+}
+
+#footer .socials img {
+    height: 20px;
+    width: 20px;
+    margin-right: 13px;
+
 }
