@@ -55,6 +55,8 @@ body {
     list-style: none;
 
     padding-right: 30px;
+
+    text-transform: capitalize;
 }
 
 .nav-items li:last-child {
@@ -171,6 +173,12 @@ section {
 
 .testimony p {
     text-align: center;
+    font-size: 16.5px;
+    color: var(--dark-grayish-blue);
+}
+
+section#testimony-section {
+    padding-bottom: 60px;
 }
 
 .heading {
@@ -195,7 +203,7 @@ section {
 }
 
 #footer {
-    background-color: black;
+    background-color: var(--very-dark-blue);
 }
 
 #footer .container {
@@ -225,7 +233,7 @@ section#footer {
     align-items: center;
     justify-items: center;
 
-    row-gap: 70px;
+    row-gap: 90px;
 }
 
 a, a:hover {
@@ -317,7 +325,7 @@ button {
 }
 
 #footer .nav-items li {
-    margin-bottom: 17px;
+    margin-bottom: 25px;
 }
 
 #footer .logo img {
@@ -330,4 +338,35 @@ button {
     width: 20px;
     margin-right: 13px;
 
+}
+
+.search {
+    padding: .8rem 0.1rem .6rem 1rem;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-weight: 500;
+
+    font-size: 14px
+}
+
+#footer button {
+    padding: .8rem 1.4rem;
+
+}
+
+#footer .red-btn {
+    box-shadow: none;
+}
+
+#footer a{
+    color: var(--very-light-gray);
+}
+
+#footer a:hover{
+    color: var(--bright-red);
+}
+
+.copyright {
+    font-size: 13px;
 }
