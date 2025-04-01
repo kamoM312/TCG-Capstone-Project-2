@@ -442,7 +442,7 @@ form {
     }
 
     #about .left-col > * {
-        width: 80%;
+        width: 85%;
     }
 
     #about .right-col > * {
@@ -469,6 +469,14 @@ form {
 
     .nav-items li {
         margin-right: 20px;
+    }
+
+    #about div.left-col {
+        align-self: center;
+    }
+
+    #about .left-col > * {
+        width: 90%;
     }
 
     .testimonials > :last-child {
