@@ -231,6 +231,7 @@ section#testimony-section {
 
 #footer .container {
     padding-top: 0;
+    column-gap: 20px;
 }
 
 section#footer {
@@ -257,6 +258,7 @@ section#footer {
     justify-items: center;
 
     row-gap: 90px;
+    width: 100%;
 }
 
 a, a:hover {
@@ -403,6 +405,10 @@ button {
     font-size: 14px;
 }
 
+div.footer-nav.vertical {
+    width: 100%;
+}
+
 @media (max-width: 1200px) {
     .container {
         width: 930px;
@@ -433,11 +439,106 @@ button {
     .container {
         width: 730px;
     }
+
+    .nav-items li {
+        margin-right: 20px;
+    }
+
+    .pre-text {
+        flex-basis: 63%;
+        line-height: 1.5;
+    }
+
+    .copyright {
+        padding: 0 10px;
+    }
+
+    .search, #footer button {
+        width: 150px;
+    }
+
+    #footer .socials img {
+        height: 18px;
+        width: 18px;
+        margin-right: 11px;
+    }
+
+    #footer .logo img {
+        height: 20px;
+        margin-left: -30px;
+    }
+
+    .inner-grid {
+        justify-content: start;
+        align-items: start;
+        
+
+    }
 }
 
 /* mobile view */
 @media (max-width: 770px) {
     .container {
         width: 730px;
+    }
+
+    .navbar {
+        justify-content: center;
+    }
+
+    .navbar .nav {
+        display: none;
+    }
+
+    .navbar button {
+        display: none;
+    }
+
+
+    #intro .container, #about .container, #pre-footer .container {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .left-col {
+        align-items: center;
+    }
+
+    .left-col h1 {
+        text-align: center;
+    }
+
+    .left-col p {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    #intro .left-col {
+        order: 1;
+    }
+
+
+    .reason {
+        background-color: var(--very-pale-red);
+    }
+
+    #about .container {
+        /* width: 100%; */
+        /* margin-left: 0; */
+        margin-right: 0;
+    }
+
+    #about .right-col {
+        align-items: flex-end;
+    }
+
+
+    .pre-text {
+        font-size: 30px;
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: center;
+        margin-bottom: 30px;
     }
 }
