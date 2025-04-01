@@ -393,6 +393,10 @@ button {
     font-size: 14px
 }
 
+div.search-form {
+    width: 100%;
+}
+
 #footer button {
     padding: .8rem 1.4rem;
 
@@ -415,6 +419,20 @@ button {
 }
 
 div.footer-nav.vertical {
+    width: 100%;
+}
+
+input.search {
+    flex-basis: 75%;
+}
+
+#footer button {
+    flex-basis: 25%;
+    /* padding: .8rem .2rem; */
+}
+
+form {
+    display: flex;
     width: 100%;
 }
 
@@ -469,7 +487,7 @@ div.footer-nav.vertical {
     }
 
     .copyright {
-        padding: 0 10px;
+        /* padding: 0 10px; */
     }
 
     .search, #footer button {
@@ -620,4 +638,6 @@ div.footer-nav.vertical {
     div.socials {
         justify-content: center;
     }
+
+   
 }
