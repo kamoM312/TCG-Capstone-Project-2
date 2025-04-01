@@ -241,6 +241,12 @@ section#footer {
     padding-bottom: 40px;
 }
 
+div.socials  {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
 .vertical .nav-items {
     display: flex;
     flex-direction: column;
@@ -250,6 +256,7 @@ section#footer {
 
 .copyright {
     color: white;
+    width: 100%;
 }
 
 .inner-grid {
@@ -257,7 +264,7 @@ section#footer {
     grid-template-rows: 1fr 1fr;
 
     align-items: center;
-    justify-items: center;
+    justify-items: start;
 
     row-gap: 90px;
     width: 100%;
@@ -366,7 +373,7 @@ button {
 
 #footer .logo img {
     height: 25.88px;
-    margin-left: -25px;
+    /* margin-left: -25px; */
 }
 
 #footer .socials img {
@@ -476,8 +483,8 @@ div.footer-nav.vertical {
     }
 
     #footer .logo img {
-        height: 20px;
-        margin-left: -30px;
+        /* height: 20px;
+        margin-left: -30px; */
     }
 
     .inner-grid {
@@ -559,13 +566,12 @@ div.footer-nav.vertical {
 
     .pre-text {
         font-size: 30px;
-        margin-left: 25%;
-        margin-right: 25%;
+        width: 362px;
         text-align: center;
         margin-bottom: 30px;
     }
 
-    #testimony-section .container {
+    #testimony-section .container,  #pre-footer .container{
         width: 100%;
         margin-left: 0;
         margin-right: 0;
@@ -573,5 +579,45 @@ div.footer-nav.vertical {
 
     .testimonials {
         overflow-x: scroll;
+    }
+
+    #footer .container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .inner-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .vertical .nav-items {
+        align-items: center;
+    }
+
+    div.search-form {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    input.search {
+        flex-basis: 85%;
+    }
+
+    #footer button {
+        flex-basis: 15%;
+        padding: .8rem .2rem;
+    }
+
+    form {
+        display: flex;
+        width: 100%;
+    }
+
+    div.socials {
+        justify-content: center;
     }
 }
