@@ -13,7 +13,7 @@
 }
 
 body {
-    background: url("./assets/images/bg-tablet-pattern.svg") no-repeat 135% -190px;
+    background: url(./assets/images/bg-tablet-pattern.svg) no-repeat 135% -190px;
     font-family: "Be Vietnam Pro";
     font-size: 16px;
 }
@@ -342,7 +342,7 @@ button {
 section#pre-footer {
     margin-top: 50px;
     margin-bottom: 0;
-    background: url("./assets/images/bg-simplify-section-desktop.svg") var(--bright-red) no-repeat 200px -130px
+    background: url(./assets/images/bg-simplify-section-desktop.svg) var(--bright-red) no-repeat 200px -130px
 }
 
 #pre-footer button {
@@ -444,6 +444,14 @@ form {
 }
 
 @media (max-width: 1200px) {
+    body {
+        background: url(./assets/images/bg-tablet-pattern.svg) no-repeat 210% -190px;
+    }
+
+    .body {
+        background: url(./assets/images/bg-tablet-pattern.svg) no-repeat -180% 800px;
+    }
+    
     .container {
         width: 930px;
     }
