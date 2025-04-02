@@ -18,6 +18,10 @@ body {
     font-size: 16px;
 }
 
+.body {
+    background: url(./assets/images/bg-tablet-pattern.svg) no-repeat -90% 900px;
+}
+
 .container {
     max-width: 1140px;
     margin-left: auto;
@@ -338,6 +342,7 @@ button {
 section#pre-footer {
     margin-top: 50px;
     margin-bottom: 0;
+    background: url("./assets/images/bg-simplify-section-desktop.svg") var(--bright-red) no-repeat 200px -130px
 }
 
 #pre-footer button {
