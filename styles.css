@@ -18,7 +18,7 @@ body {
     font-size: 16px;
 }
 
-.body {
+.section-body {
     background: url(./assets/images/bg-tablet-pattern.svg) no-repeat -90% 900px;
 }
 
@@ -448,7 +448,7 @@ form {
         background: url(./assets/images/bg-tablet-pattern.svg) no-repeat 210% -190px;
     }
 
-    .body {
+    .section-body {
         background: url(./assets/images/bg-tablet-pattern.svg) no-repeat -180% 800px;
     }
     
@@ -478,6 +478,15 @@ form {
 }
 
 @media (max-width: 990px) {
+
+    body {
+        background: url(./assets/images/bg-tablet-pattern.svg) no-repeat 350px -15%;
+    }
+
+    .section-body {
+        background: url(./assets/images/bg-tablet-pattern.svg) no-repeat -300% 900px;
+    }
+
     .container {
         width: 730px;
     }
@@ -565,6 +574,14 @@ form {
 /* mobile view */
 @media (max-width: 770px) {
 
+    body {
+        background: url(./assets/images/bg-tablet-pattern.svg) no-repeat -10% -190px;
+    }
+
+    .section-body {
+        background: url(./assets/images/bg-tablet-pattern.svg) no-repeat -90% 1095px;
+    }
+
     section#intro {
         margin-top: 50px;
         margin-bottom: 50px;
@@ -585,6 +602,11 @@ form {
 
     #about .right-col > * {
         width: 95%;
+    }
+
+    #about .reason-explanation > * {
+        margin-left: 0;
+        margin-top: 10px;
     }
 
     .navbar {
