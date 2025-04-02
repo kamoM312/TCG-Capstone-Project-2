@@ -240,8 +240,8 @@ section#testimony-section {
 }
 
 #footer .container {
-    padding-top: 45px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     column-gap: 20px;
 }
 
@@ -485,11 +485,27 @@ form {
         margin-right: 20px;
     }
 
+    section#intro {
+        margin-top: 80px;
+    }
+
+    #intro div.left-col p {
+        margin-right: 0;
+    }
+
     #about div.left-col {
         align-self: center;
     }
 
+    div.left-col h1 {
+        font-size: 33px;
+    }
+
     #about .left-col > * {
+        width: 90%;
+    }
+
+    #about .right-col > * {
         width: 90%;
     }
 
@@ -538,13 +554,31 @@ form {
     .inner-grid {
         justify-content: start;
         align-items: start;
-        
+        grid-template-rows: 1fr;
 
     }
+
+    #footer .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    section#pre-footer {
+        margin-top: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;  
+    }
+
+
 }
 
 /* mobile view */
 @media (max-width: 770px) {
+
+    section#intro {
+        margin-top: 50px;
+    }
+    
     .container {
         /* width: 730px; */
         margin-left: 10%;
