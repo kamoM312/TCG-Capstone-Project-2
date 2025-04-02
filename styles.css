@@ -692,14 +692,10 @@ form {
         display: flex;
         flex-direction: column;
         gap: 40px;
-        padding-top: 55px;
-        padding-bottom: 55px;
+        padding-top: 75px;
+        padding-bottom: 75px;
     }
 
-    #footer .container {
-        padding-top: 55px;
-        padding-bottom: 55px;
-    }
     
     .inner-grid {
         display: flex;
@@ -728,6 +724,7 @@ form {
 
     form {
         display: flex;
+        flex-direction: row;
         width: 100%;
     }
 
