@@ -577,13 +577,25 @@ form {
 
     section#intro {
         margin-top: 50px;
+        margin-bottom: 50px;
     }
-    
+
     .container {
         /* width: 730px; */
-        margin-left: 10%;
-        margin-right: 10%;
-        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 82%;
+    }
+
+    #about .left-col > * {
+        width: 82%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #about .right-col > * {
+        width: 95%;
     }
 
     .navbar {
@@ -627,6 +639,10 @@ form {
         background-color: var(--very-pale-red);
     }
 
+    .heading {
+        font-size: 27px;
+    }
+
     #about .container {
         width: 100%;
         margin-left: 0;
@@ -635,6 +651,10 @@ form {
 
     #about .right-col {
         align-items: flex-end;
+    }
+
+    .testimony {
+        margin-bottom: 70px;
     }
 
     .testimonials > :last-child {
@@ -663,10 +683,22 @@ form {
         overflow-x: scroll;
     }
 
+    section#pre-footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
     #footer .container {
         display: flex;
         flex-direction: column;
         gap: 40px;
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    #footer .container {
+        padding-top: 55px;
+        padding-bottom: 55px;
     }
     
     .inner-grid {
