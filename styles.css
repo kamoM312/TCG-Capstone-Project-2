@@ -360,6 +360,7 @@ section#pre-footer {
     color: var(--very-light-gray);
     flex-basis: 50%;
     padding: 0;
+    font-weight: 600;
 }
 
 #pre-footer button {
@@ -451,6 +452,10 @@ form {
     .section-body {
         background: url(./assets/images/bg-tablet-pattern.svg) no-repeat -180% 800px;
     }
+
+    section#pre-footer {
+        background: url(./assets/images/bg-simplify-section-desktop.svg) var(--bright-red) no-repeat 200px -130px;
+    }
     
     .container {
         width: 930px;
@@ -475,6 +480,10 @@ form {
     .copyright {
         text-align: center;
     }
+
+    .pre-text {
+        flex-basis: 60%;
+    }
 }
 
 @media (max-width: 990px) {
@@ -485,6 +494,10 @@ form {
 
     .section-body {
         background: url(./assets/images/bg-tablet-pattern.svg) no-repeat -300% 900px;
+    }
+
+    section#pre-footer {
+        background: url(./assets/images/bg-simplify-section-desktop.svg) var(--bright-red) no-repeat 200px -130px;
     }
 
     .container {
@@ -530,7 +543,7 @@ form {
     }
 
     .pre-text {
-        flex-basis: 63%;
+        flex-basis: 70%;
         line-height: 1.5;
     }
     
@@ -580,6 +593,10 @@ form {
 
     .section-body {
         background: url(./assets/images/bg-tablet-pattern.svg) no-repeat -90% 1095px;
+    }
+
+    section#pre-footer {
+        background: url(./assets/images/bg-simplify-section-mobile.svg) var(--bright-red) no-repeat;
     }
 
     section#intro {
