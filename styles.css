@@ -65,6 +65,10 @@ body {
     text-transform: capitalize;
 }
 
+.nav-items li a:hover {
+    color: var(--dark-grayish-blue);
+}
+
 .nav-items li:last-child {
     padding-right: 0;
 }
@@ -304,6 +308,12 @@ button {
     transition-duration: .7s;
 }
 
+div.num.red-btn:hover {
+    transform: none;
+    background: var(--bright-red);
+    opacity: 1;
+}
+
 #pre-footer button:hover {
     opacity: .9;
 }
@@ -401,9 +411,14 @@ section#pre-footer {
     height: 25.88px;
 }
 
-#footer .socials img {
+/* #footer .socials img {
     height: 20px;
     width: 20px;
+} */
+
+svg > :hover {
+    fill: var(--bright-red);
+    cursor: pointer;
 }
 
 .search {
