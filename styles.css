@@ -599,7 +599,7 @@ form {
     .container {
         margin-left: auto;
         margin-right: auto;
-        width: 82%;
+        width: 80%;
     }
 
     #about .left-col > * {
@@ -746,11 +746,11 @@ form {
     }
 
     input.search {
-        flex-basis: 90%;
+        flex-basis: 87%;
     }
 
     #footer button {
-        flex-basis: 10%;
+        flex-basis: 13%;
         padding: .8rem .2rem;
     }
 
