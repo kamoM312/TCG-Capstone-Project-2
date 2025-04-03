@@ -7,6 +7,16 @@
     --very-light-gray: hsl(0, 0%, 98%);
 }
 
+.testimonials::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .testimonials {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
 * {
     box-sizing: border-box;
     margin: 0;
