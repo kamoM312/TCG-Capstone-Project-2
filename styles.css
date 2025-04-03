@@ -304,6 +304,10 @@ button {
     transition-duration: .7s;
 }
 
+#pre-footer button:hover {
+    opacity: .9;
+}
+
 #footer .red-btn:hover {
     transform: none;
     background: hsl(12, 90%, 70%);
