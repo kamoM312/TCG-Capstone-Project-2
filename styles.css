@@ -239,6 +239,7 @@ section#footer {
 div.socials  {
     width: 100%;
     display: flex;
+    gap: 16px;
     justify-content: flex-start;
 }
 
@@ -387,8 +388,6 @@ section#pre-footer {
 #footer .socials img {
     height: 20px;
     width: 20px;
-    margin-right: 13px;
-
 }
 
 .search {
@@ -559,16 +558,9 @@ form {
         width: 100%;
     }
 
-    #footer .socials img {
-        height: 18px;
-        width: 18px;
-        margin-right: 11px;
-    }
-
     .inner-grid {
         justify-content: start;
         align-items: start;
-
     }
 
     #footer .container {
@@ -653,6 +645,10 @@ form {
         text-align: center;
     }
 
+    div.left-col h1 {
+        font-size: 30px;
+    }
+
     .left-col p {
         text-align: center;
         margin-right: 0;
@@ -662,6 +658,9 @@ form {
         order: 1;
     }
 
+    #about .reason h3 {
+        font-size: 13px;
+    }
 
     .reason {
         background-color: var(--very-pale-red);
@@ -709,6 +708,7 @@ form {
 
     .testimonials {
         overflow-x: scroll;
+        gap: 65px;
     }
 
     section#pre-footer {
@@ -720,8 +720,8 @@ form {
         display: flex;
         flex-direction: column;
         gap: 40px;
-        padding-top: 75px;
-        padding-bottom: 75px;
+        padding-top: 62px;
+        padding-bottom: 62px;
     }
 
     
@@ -730,6 +730,10 @@ form {
         flex-direction: column;
         align-items: center;
         gap: 35px;
+    }
+
+    #footer .logo img {
+        height: 24px;
     }
 
     .vertical .nav-items {
@@ -758,6 +762,7 @@ form {
 
     div.socials {
         justify-content: center;
+        gap: 16px;
     }
 
    
