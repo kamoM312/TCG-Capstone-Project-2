@@ -836,3 +836,11 @@ form {
 
    
 }
+
+@media (max-width: 364px) {
+    .pre-text {
+        width: 85%;
+    }
+}
+
+/* pre footer container */
