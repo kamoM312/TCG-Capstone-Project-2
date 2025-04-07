@@ -318,6 +318,10 @@ button {
     transition-duration: .7s;
 }
 
+div.num.red-btn {
+    box-shadow: none;
+}
+
 div.num.red-btn:hover {
     transform: none;
     background: var(--bright-red);
@@ -843,4 +847,3 @@ form {
     }
 }
 
-/* pre footer container */
