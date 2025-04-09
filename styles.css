@@ -646,7 +646,7 @@ form {
 
 
 /* mobile view */
-@media (max-width: 770px) {
+@media (max-width: 767px) {
 
     body {
         background: url(./assets/images/bg-tablet-pattern.svg) no-repeat -10% -190px;
