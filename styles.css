@@ -880,3 +880,34 @@ form {
     }
 }
 
+
+/* search bar  */
+@media (max-width: 630px) {
+    input.search {
+        flex-basis: 82%;
+    }
+
+    #footer button {
+        flex-basis: 18%;
+    }
+}
+
+@media (max-width: 550px) {
+    input.search {
+        flex-basis: 78%;
+    }
+
+    #footer button {
+        flex-basis: 22%;
+    }
+}
+
+@media (max-width: 425px) {
+    input.search {
+        flex-basis: 72%;
+    }
+
+    #footer button {
+        flex-basis: 28%;
+    }
+}
